@@ -1,2 +1,3 @@
 *.swp
 _site/
+static/scss/.sass-cache/
