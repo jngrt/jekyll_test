@@ -1,0 +1,78 @@
+/*
+Syntax error: File to import not found or unreadable: base.
+              Load paths:
+                /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass
+                /home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 5 of /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass/normalize.scss
+
+1: /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass/normalize.scss
+
+Backtrace:
+/home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass/normalize.scss:5
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:31:in `create'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:26:in `block in created'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:25:in `each'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:25:in `created'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:17:in `refresh'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `load'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `<main>'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+/home/jngrt/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: base.\A               Load paths:\A                 /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass\A                 /home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /home/jngrt/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 5 of /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass/normalize.scss\A \A 1: /home/jngrt/Projects/dev portal/jekyll_test/static/scss/sass/normalize.scss"; }

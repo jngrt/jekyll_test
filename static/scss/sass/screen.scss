@@ -2,39 +2,57 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-$main-bg : #eee;
-$content-bg: #ddd;
+$main-bg : #f7f7f7;
+$sidebar-bg: #eff0f2;
+$header-bg:#808080;
+$header-bg-dark:#606060;
+$font-color:#505050;
+$highlight:#ee8021;
 $width: 850px;
 $sb-width: 250px;
 $main-width: $width - $sb-width;
 $footer-height: 40px;
+$header-height: 40px;
 
 
 @import "compass/reset";
+@import "compass/css3/images";
+//@import "compass/css3/box-shadow";
 
-html,body{
+html{
   background-color:$main-bg;
+}
+html,body{
   min-height:100%;
   height:100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:100%;
+  color:$font-color;
 }
 #wrap{
   width:$width;
   margin:0px auto -#{$footer-height}; 
   min-height:100%;
   height: auto !important;
+  height:100%;
   position:relative;
 }
 #content{
   height:100%;
 }
 #header{
-  height:$footer-height;
+  height:$header-height;
   background-color:#aaa;
+  color:#fdfdfd;
+  @include background-image(linear-gradient($header-bg, $header-bg 70%, $header-bg-dark)); 
 }
 #header-content{
   width:$width;
-  margin:0px auto;
-  padding:10px;
+  height:#{$header-height - 20px};
+  margin:auto;
+  padding:10px 0;
+  line-height:20px;
+   
   clear:both;
 }
 #header-title{
@@ -42,14 +60,17 @@ html,body{
 }
 #header-buttons{
   float:right;
+  font-size:0.813em;
 }
 #main{
-  width:$main-width;
+  width:#{$main-width - 40px};
   position:absolute;
   left:$sb-width;
   top:0;
-  bottom:$footer-height;
-  background-color:$content-bg;
+  //bottom:$footer-height;
+  padding:20px;
+  overflow:auto;
+  padding-bottom:40px
 }
 #sidebar{
   width:$sb-width;
@@ -57,22 +78,72 @@ html,body{
   left:0;
   top:0;
   bottom:$footer-height;
-  background-color:#ccc;
+  //background-color:#ccc;
+  padding-top:20px;
 }
 #sidebar-content{
-  background-color:#fbb;
-  width:#{$sb-width - '20px'};
-  padding:20px;
+  //position:relative;
+  //@include border-radius(4px, 4px);
+  background-color:$sidebar-bg;
+  width: $sb-width - 42;
+  padding:20px 20px 40px 20px;
+  line-height:150%;
+  border: 1px solid #fff;
+  outline: 1px solid #cfcfcf;
 }
+
+
 #sidebar-content ul{
-  padding-left:20px;
+  font-weight:bold;
 }
+#sidebar-content ul ul{
+  padding-left:20px;
+//  font-size:0.875em;
+  font-weight:normal;
+}
+#sidebar-content ul ul ul{
+//  font-size:0.875em;
+}
+
+
 .push{
   height:$footer-height;
   clear:both;
 }
 #footer{
+  clear:both;
   height:$footer-height;
+
   background-color:#bbb;
 }
+h1{
+  font-size:3em;
+  font-weight:bold;
+  padding:20px 0;
+}
+h2{
+  font-size:2em;
+  margin:1em;
+}
+h3{
+  font-size:1.5em;
+}
+h4{
+  font-size:0.875em;
+  font-weight:bold;
+}
+#main ul{
+  padding:20px;
+  font-size:0.875em;
+}
+#main li{
+  list-style-type: circle;
+}
+//#main h1:first-child{
+//  padding-top:20px;
 
+//}
+p{
+  font-size:0.875em;
+  line-height:120%;
+}

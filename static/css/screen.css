@@ -67,91 +67,160 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 15, ../scss/sass/screen.scss */
-html, body {
-  background-color: #eeeeee;
-  min-height: 100%;
-  height: 100%;
+/* line 22, ../scss/sass/screen.scss */
+html {
+  background-color: #f7f7f7;
 }
 
-/* line 20, ../scss/sass/screen.scss */
+/* line 25, ../scss/sass/screen.scss */
+html, body {
+  min-height: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 100%;
+  color: #505050;
+}
+
+/* line 32, ../scss/sass/screen.scss */
 #wrap {
   width: 850px;
   margin: 0px auto -40px;
   min-height: 100%;
   height: auto !important;
+  height: 100%;
   position: relative;
 }
 
-/* line 27, ../scss/sass/screen.scss */
+/* line 40, ../scss/sass/screen.scss */
 #content {
   height: 100%;
 }
 
-/* line 30, ../scss/sass/screen.scss */
+/* line 43, ../scss/sass/screen.scss */
 #header {
   height: 40px;
   background-color: #aaa;
+  color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #808080), color-stop(70%, #808080), color-stop(100%, #606060));
+  background-image: -webkit-linear-gradient(#808080, #808080 70%, #606060);
+  background-image: -moz-linear-gradient(#808080, #808080 70%, #606060);
+  background-image: -o-linear-gradient(#808080, #808080 70%, #606060);
+  background-image: linear-gradient(#808080, #808080 70%, #606060);
 }
 
-/* line 34, ../scss/sass/screen.scss */
+/* line 49, ../scss/sass/screen.scss */
 #header-content {
   width: 850px;
-  margin: 0px auto;
-  padding: 10px;
+  height: 20px;
+  margin: auto;
+  padding: 10px 0;
+  line-height: 20px;
   clear: both;
 }
 
-/* line 40, ../scss/sass/screen.scss */
+/* line 58, ../scss/sass/screen.scss */
 #header-title {
   float: left;
 }
 
-/* line 43, ../scss/sass/screen.scss */
+/* line 61, ../scss/sass/screen.scss */
 #header-buttons {
   float: right;
+  font-size: 0.813em;
 }
 
-/* line 46, ../scss/sass/screen.scss */
+/* line 65, ../scss/sass/screen.scss */
 #main {
-  width: 600px;
+  width: 560px;
   position: absolute;
   left: 250px;
   top: 0;
-  bottom: 40px;
-  background-color: #dddddd;
+  padding: 20px;
+  overflow: auto;
+  padding-bottom: 40px;
 }
 
-/* line 54, ../scss/sass/screen.scss */
+/* line 75, ../scss/sass/screen.scss */
 #sidebar {
   width: 250px;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 40px;
-  background-color: #ccc;
+  padding-top: 20px;
 }
 
-/* line 62, ../scss/sass/screen.scss */
+/* line 84, ../scss/sass/screen.scss */
 #sidebar-content {
-  background-color: #fbb;
-  width: 250px-"20px";
-  padding: 20px;
+  background-color: #eff0f2;
+  width: 208px;
+  padding: 20px 20px 40px 20px;
+  line-height: 150%;
+  border: 1px solid #fff;
+  outline: 1px solid #cfcfcf;
 }
 
-/* line 67, ../scss/sass/screen.scss */
+/* line 96, ../scss/sass/screen.scss */
 #sidebar-content ul {
-  padding-left: 20px;
+  font-weight: bold;
 }
 
-/* line 70, ../scss/sass/screen.scss */
+/* line 99, ../scss/sass/screen.scss */
+#sidebar-content ul ul {
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+/* line 109, ../scss/sass/screen.scss */
 .push {
   height: 40px;
   clear: both;
 }
 
-/* line 74, ../scss/sass/screen.scss */
+/* line 113, ../scss/sass/screen.scss */
 #footer {
+  clear: both;
   height: 40px;
   background-color: #bbb;
+}
+
+/* line 119, ../scss/sass/screen.scss */
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+/* line 124, ../scss/sass/screen.scss */
+h2 {
+  font-size: 2em;
+  margin: 1em;
+}
+
+/* line 128, ../scss/sass/screen.scss */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 131, ../scss/sass/screen.scss */
+h4 {
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+/* line 135, ../scss/sass/screen.scss */
+#main ul {
+  padding: 20px;
+  font-size: 0.875em;
+}
+
+/* line 139, ../scss/sass/screen.scss */
+#main li {
+  list-style-type: circle;
+}
+
+/* line 146, ../scss/sass/screen.scss */
+p {
+  font-size: 0.875em;
+  line-height: 120%;
 }
