@@ -1,6 +1,6 @@
 ---
 layout: default
-what: this is the yaml front matter which can be used for configuration, for example:
+what: this is the yaml front matter which can be used for configuration, for example
 auth_level: 2
 that: would specify a certain authentication level you need to access this file.
 ---
