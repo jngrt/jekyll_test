@@ -1,15 +1,28 @@
 ---
-layout: default
+layout: minimal 
 what: this is the yaml front matter which can be used for configuration, for example
 auth_level: 2
 that: would specify a certain authentication level you need to access this file.
 ---
 
-#This is the title of the documentation item
+# The tutorial tutorial
 
-## This a 2nd level heading 
+## Intro
+This tutorial provides guidelines on how to write content for the developers portal. The developer portal is setup in such a way that content and layout are nicely separated. The content will solely consist of [markdown](http://daringfireball.net/projects/markdown/) files with some [YAML](http://www.yaml.org/) configuration added to it (and maybe some images).
 
-Ligula dapibus egestas. Donec sed velit ac lectus mattis sagittis.In hac habitasse platea dictumst. Maecenas in ligula. Duis tincidunt odio sollicitudin.
+## Github and content management
+To be able to easily modify and add to the documentation we chose to make it into a github repo. 
+[Link to github repo](http://link)
+
+### Adding a new documentation item
+To add a new documentation item just clone the repository. Create a new directory in the right place or copy the template directory
+
+
+## Markdown
+
+## Headings used 
+
+Documentation items would use a 
 
 ### A third level heading: Code 
 
@@ -23,6 +36,9 @@ with crazy symbols that will show up correct
 ```
 
 At some point we might add nice highlighting for [these languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+
+Another way to include code is by adding a link to a gist:
+<script src="http://gist.github.com/118964.js"></script>
 
 ### Another third level 
 
